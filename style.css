@@ -13,6 +13,10 @@ body {
 	overflow-x: hidden;
 }
 
+input {
+	transform: translateX(-500px);
+}
+
 #container {
 	max-width: 800px;
 	margin: 200px auto;
