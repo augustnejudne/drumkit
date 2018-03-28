@@ -7,7 +7,7 @@
 body {
 	font-family: Courier;
 	font-weight: bold;
-	background: linear-gradient(to bottom, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, 1) 100%), url('/assets/images/main-bg.jpg') no-repeat;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, 1) 100%), url('https://raw.githubusercontent.com/augustnejudne/drumkit/master/assets/images/main-bg.jpg') no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	overflow-x: hidden;
