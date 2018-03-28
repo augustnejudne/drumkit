@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Javascript30 Day 1 - Drum Kit</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<input autofocus id="input">
+	<div id="container">
+		<div data-key="65" class="box">
+			<h5>A</h5>
+			<div class="sound">clap</div>
+		</div>
+		<div data-key="83" class="box">
+			<h5>S</h5>
+			<div class="sound">cowbell</div>
+		</div>
+		<div data-key="68" class="box">
+			<h5>D</h5>
+			<div class="sound">crash</div>
+		</div>
+		<div data-key="70" class="box">
+			<h5>F</h5>
+			<div class="sound">hi hat</div>
+		</div>
+		<div data-key="71" class="box">
+			<h5>G</h5>
+			<div class="sound">kick</div>
+		</div>
+		<div data-key="72" class="box">
+			<h5>H</h5>
+			<div class="sound">open hat</div>
+		</div>
+		<div data-key="74" class="box">
+			<h5>J</h5>
+			<div class="sound">perc</div>
+		</div>
+		<div data-key="75" class="box">
+			<h5>K</h5>
+			<div class="sound">snare</div>
+		</div>
+		<div data-key="76" class="box">
+			<h5>L</h5>
+			<div class="sound">tom</div>
+		</div>
+	</div>
+
+	<audio data-key="65" src="/assets/audio/clap-808.wav"></audio>
+	<audio data-key="83" src="/assets/audio/cowbell-808.wav"></audio>
+	<audio data-key="68" src="/assets/audio/crash-808.wav"></audio>
+	<audio data-key="70" src="/assets/audio/hihat-808.wav"></audio>
+	<audio data-key="71" src="/assets/audio/kick-808.wav"></audio>
+	<audio data-key="72" src="/assets/audio/openhat-808.wav"></audio>
+	<audio data-key="74" src="/assets/audio/perc-hollow.wav"></audio>
+	<audio data-key="75" src="/assets/audio/snare-808.wav"></audio>
+	<audio data-key="76" src="/assets/audio/tom-808.wav"></audio>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
